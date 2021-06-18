@@ -1,6 +1,6 @@
 {
     "name": "POPO小说",
-    "url": "https://m.popoxs.com/",
+    "url": "m.popoxs.com",
     "version": 100,
     "search": {
         "url": "https://m.popoxs.com/wap/search.html?s=${key}&type=articlename",
