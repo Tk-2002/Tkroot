@@ -1,0 +1,27 @@
+{
+    "name": "POPO小说",
+    "url": "https://m.popoxs.com/",
+    "version": 100,
+    "search": {
+        "url": "https://m.popoxs.com/wap/search.html?s=${key}&type=articlename",
+        "charset": "utf-8",
+        "list": "ul > li",
+        "name": "div > h3",
+        "author": "div > p",
+        "cover": "div > img",
+        "summary": "",
+        "detail": "a"
+    },
+    "detail": {
+        "catalog": ".ui_bookinfo_btns > p > a"
+    },
+    "catalog": {
+        "list": "ul > li",
+        "name": "a > span",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": ".r-content > p",
+        "purify": [""]
+    }
+}
