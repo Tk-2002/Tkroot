@@ -1,0 +1,29 @@
+{
+    "name": "我的书城ᵗ",
+    "url": "m.3wwd.com",
+    "version": 100,
+    "search": {
+        "url": "https://m.3wwd.com/so.php@post->keyword=${key}&t=1",
+        "charset": "utf-8",
+        "list": "div > a",
+        "name": "a > p:first-child",
+        "author": "a > p:nth-child(2)",
+        "cover": "div > img",
+        "summary": "",
+        "detail": "a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": ".directoryArea > p",
+        "name": "a",
+        "chapter": "a",
+        "page":".right > a"
+    },
+    "chapter": {
+        "content": "#chaptercontent",
+        "purify": [""],
+        "page":".Readpage > a:nth-child(3):matches(下一页)"
+    }
+}
