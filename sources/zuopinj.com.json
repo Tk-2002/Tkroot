@@ -1,7 +1,7 @@
 {
-    "name": "作品网",
+    "name": "作品网ᵗ",
     "url": "zuopinj.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "http://so.zuopinj.com/search/index.php@post->tbname=bookname&show=title&tempid=3&keyboard=${key}",
         "charset": "utf-8",
