@@ -1,0 +1,27 @@
+{
+    "name": "笔趣说ᵗ",
+    "url": "www.xsxs520.com",
+    "version": 101,
+    "search": {
+        "url": "https://www.xsxs520.com/s.php?ie=gbk&q=${key}",
+        "charset": "gbk",
+        "list": ".bookbox",
+        "name": "h4 > a",
+        "author": ".author@replace->作者：->",
+        "cover": "a > img",
+        "summary": "",
+        "detail": "a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "dl > dd",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content",
+        "purify": [""]
+    }
+}
