@@ -1,9 +1,9 @@
 {
     "name": "起舞中文网ᵗ",
-    "url": "m.75zhongwen.com",
-    "version": 100,
+    "url": "m.75zwz.com",
+    "version": 101,
     "search": {
-        "url": "https://m.75zhongwen.com/search.html@post->searchkey=${key}",
+        "url": "https://m.75zwz.com/search.html@post->searchkey=${key}",
         "charset": "utf-8",
         "list": ".list > li",
         "name": ".bookname > a",
@@ -23,7 +23,7 @@
     },
     "chapter": {
         "content": ".p75zwcom_content > div",
-        "purify": [""],
-        "page":""
+        "purify": ["本章未完，请点击下一页继续阅读，后面更精彩！"],
+        "page":".pager > a:matches(下一页)"
     }
 }
