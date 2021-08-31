@@ -1,0 +1,28 @@
+{
+    "name": "品书库",
+    "url": "m.pinshuku.com",
+    "version": 100,
+    "search": {
+        "url": "https://m.pinshuku.com/search/@post->searchkey=${key}&searchtype=all&t_btnsearch=",
+        "charset": "utf-8",
+        "list": ".list-item",
+        "name": ".article > a",
+        "author": ".mr15@replace->作者：->",
+        "cover": "a > img",
+        "summary": "",
+        "detail": "a"
+    },
+    "detail": {
+        "catalog":".more > a"
+    },
+    "catalog": {
+        "list": ".even",
+        "name": "a",
+        "chapter": "a",
+        "page":""
+    },
+    "chapter": {
+        "content": "#nr1",
+        "page":".next > a:matches(下一页)"
+    }
+}
