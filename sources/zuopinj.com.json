@@ -7,7 +7,7 @@
         "charset": "utf-8",
         "list": ".search-bookele",
         "name": "div > a > h3",
-        "author": "a > p",
+        "author": "a > h3",
         "cover": "div > a > img",
         "summary": "",
         "detail": "div > a"
