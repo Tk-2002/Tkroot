@@ -1,0 +1,25 @@
+{
+  "name": "81中文网ᵗ",
+  "url": "www.81zw.com",
+  "version": 101,
+  "search": {
+    "url": "https://www.81zw.com/search.php?q=${key}",
+    "charset": "utf-8",
+    "list": ".result-list > div",
+    "name": "h3 > a > span",
+    "author": ".result-game-item-info > p:first-child > span:last-child",
+    "cover": "a > img",
+    "detail": "a"
+  },
+  "detail": {
+    "catalog": ""
+  },
+  "catalog": {
+    "list": "dl > dd",
+    "name": "a",
+    "chapter": "a"
+  },
+  "chapter": {
+    "content": "#content"
+  }
+  }
