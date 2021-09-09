@@ -1,0 +1,25 @@
+{
+  "name": "书屋小说网ᵗ",
+  "url": "www.shu05.com",
+  "version": 101,
+  "search": {
+    "url": "http://www.shu05.com/modules/article/search.php?searchkey=${key}",
+    "charset": "gbk",
+    "list": ".row",
+    "name": "h4 > a",
+    "author": "div > small@replace->/ 著.+->",
+    "cover": "a > img",
+    "detail": "a"
+  },
+  "detail": {
+    "catalog": ""
+  },
+  "catalog": {
+    "list": ".col-md-3",
+    "name": "a",
+    "chapter": "a"
+  },
+  "chapter": {
+    "content": "#htmlContent"
+  }
+  }
